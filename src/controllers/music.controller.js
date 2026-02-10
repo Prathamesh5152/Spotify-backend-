@@ -20,4 +20,6 @@ async function createMusic(req,res){
             message:"Unauthorized"
         })
     }
+    const {title} = req.body;
+    const file = req.file;
 }
